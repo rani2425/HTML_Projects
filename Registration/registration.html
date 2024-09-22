@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Registration.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+
+        <form>
+            <h2>Registaration Form</h2><hr><br><br>
+
+            <div class="content">
+                <div class="input">
+                    <label for="cname">Candidate Name</label>
+                    <input type="text" name="cname" required placeholder="Enter name">
+                </div>
+                <div class="input">
+                    <label for="uname">UserName</label>
+                    <input type="text" name="uname" required placeholder="Enter userName">
+                </div>
+                <div class="input">
+                    <label for="mail">Email</label>
+                    <input type="text" name="mail" required placeholder="Enter valid email">
+                </div>
+                <div class="input">
+                    <label for="pn">Phone Number</label>
+                    <input type="tel" name="pn" required placeholder="Enter phone number">
+                </div>
+                <div class="input">
+                    <label for="pass">Password</label>
+                    <input type="password" name="pass" required placeholder="Enter new password">
+                </div>
+                <div class="input">
+                    <label for="cpass">Confirm Password</label>
+                    <input type="text" name="cpass" required placeholder="Confirm password">
+                </div>
+                <div class="input">
+                    <label for="ad">Country</label>
+                    <select name="country" id="ad" required>
+                       <option value="Country">Country</option>
+                       <option value="Afghanistan">Afghanistan</option>
+                       <option value="Belgium">Belgium</option>
+                       <option value="China">China</option>
+                       <option value="Denmark">Denmark</option>
+                       <option value="Egypt">Egypt</option>
+                       <option value="France">France</option>
+                       <option value="Georgia">Georgia</option>
+                       <option value="Haiti">Haiti</option>
+                       <option value="India">India</option>
+                       <option value="Japan">Japan</option>
+                       <option value="US">US</option>
+                       <option value="Pakistan">Pakistan</option>
+                       
+                    </select>
+                </div>
+                <div class="input">
+                    <label for="st">State</label>
+                    <select name="state" id="st" required>
+                       <option value="State">State</option>
+                       <option value="Andhra Pradesh">Andhra Pradesh</option>
+                       <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                       <option value="Assam">Assam</option>
+                       <option value="Bihar">Bihar</option>
+                       <option value="Chhattisgarh">Chhattisgarh</option>
+                       <option value="Goa">Goa</option>
+                       <option value="Haryana">Haryana</option>
+                       <option value="Jharkhand">Jharkhand</option>
+                       <option value="Karnataka">Karnataka</option>
+                       <option value="Maharashtra">Maharashtra</option>
+                       <option value="Nagaland">Nagaland</option>
+                       <option value="Odisha">Odisha</option>
+                       <option value="Punjab">Punjab</option>
+                       <option value="Rajastan">Rajastan</option>
+                    </select>
+                </div>
+                <span class="gender">Gender</span>
+                <div class="gender-content">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="male">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="female">
+                    <label for="other">Other</label>
+                    <input type="radio" name="gender" id="other">
+                </div>
+            </div><br>
+        <div class="button-cantainer">
+            <button>Register</button>
+        </div>
+           
+        </form>
+    </div>
+</body>
+</html>
